@@ -18,5 +18,13 @@
     <ClCompile Include="2.5project.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="student.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="student.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

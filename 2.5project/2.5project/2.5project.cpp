@@ -1,6 +1,7 @@
 //2- 5　结构、权限修饰符、类简介
 
 
+#include"student.h"
 #include<iostream>
 using namespace std;
 //struct  student
@@ -10,19 +11,23 @@ using namespace std;
 //	char name[100];
 //};
 
-struct student
-{
-	int number;
-	char name[100];
-
-	void func()//成员函数
-	{
-		number++;
-		return;
-	}
-};
-
-
+//class student
+//{
+//public:
+//	int number;
+//	char name[100];
+//public:
+//	void func()//成员函数
+//	{
+//		number++;
+//		return;
+//	}
+//	void print_out()
+//	{
+//		cout << number;
+//	}
+//
+//};
 //三种调用方式;
 //1.形参用结构变量.
 /*void func(student tmpstu)*///形参用结构变量.
