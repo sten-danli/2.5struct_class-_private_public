@@ -1,4 +1,5 @@
 //2- 5　结构、权限修饰符、类简介
+//更改后
 #include<iostream>
 using namespace std;
 struct  student
